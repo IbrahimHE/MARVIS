@@ -1,0 +1,38 @@
+Type: Package
+Package: MARVIS
+Title: Meta-Analysis with R via Shiny
+Version: 0.1.0
+Author: Ibrahim H. Elkhidir (Ibrahim H. Elkhidir)
+Maintainer: Ibrahim H. Elkhidir <ibrahim_hassan12@yahoo.com>
+Description: It is mainly created to conduct meta-analysis in R, and
+    producing high quality visualisation plots.
+License: GPL-3
+URL: https://github.com/IbrahimHE/MARVIS
+BugReports: https://github.com/IbrahimHE/MARVIS/issues
+Depends:
+    R (>= 3.6)
+Imports:
+    colourpicker,
+    fpc,
+    ggplot2,
+    ggrepel,
+    gridExtra,
+    htmlTable,
+    kableExtra,
+    knitr,
+    meta,
+    metafor,
+    poibin,
+    readxl,
+    shiny,
+    shinyFeedback,
+    shinymanager,
+    stringr,
+    tools
+Suggests: 
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Encoding: UTF-8
+Language: en-US
+RoxygenNote: 7.1.2

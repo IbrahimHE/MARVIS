@@ -1,0 +1,16 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+\.github
+^\.git
+\.Rdata
+\.Rhistory
+shiny.html
+shiny.Rmd
+README.Rmd
+pkgdown
+docs
+\.c
+.travis.yml
+cran-comments.md
+logo.png
+^CRAN-SUBMISSION$
